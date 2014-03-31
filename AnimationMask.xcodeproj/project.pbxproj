@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		360E75CF18E9093100BE3F86 /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 360E75CE18E9093100BE3F86 /* Common.m */; };
+		360E75D218E91BB600BE3F86 /* ocean.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 360E75D118E91BB600BE3F86 /* ocean.jpg */; };
 		36C450FB18E9085600246223 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C450FA18E9085600246223 /* Foundation.framework */; };
 		36C450FD18E9085600246223 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C450FC18E9085600246223 /* CoreGraphics.framework */; };
 		36C450FF18E9085600246223 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C450FE18E9085600246223 /* UIKit.framework */; };
@@ -22,6 +24,7 @@
 		36C4511F18E9085600246223 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C450FE18E9085600246223 /* UIKit.framework */; };
 		36C4512718E9085600246223 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 36C4512518E9085600246223 /* InfoPlist.strings */; };
 		36C4512918E9085600246223 /* AnimationMaskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36C4512818E9085600246223 /* AnimationMaskTests.m */; };
+		36C4513318E9087100246223 /* sunset_tree.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 36C4513218E9087100246223 /* sunset_tree.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		360E75CD18E9093100BE3F86 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		360E75CE18E9093100BE3F86 /* Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Common.m; sourceTree = "<group>"; };
+		360E75D118E91BB600BE3F86 /* ocean.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ocean.jpg; path = ../ocean.jpg; sourceTree = "<group>"; };
 		36C450F718E9085600246223 /* AnimationMask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationMask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36C450FA18E9085600246223 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		36C450FC18E9085600246223 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -55,6 +61,7 @@
 		36C4512418E9085600246223 /* AnimationMaskTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AnimationMaskTests-Info.plist"; sourceTree = "<group>"; };
 		36C4512618E9085600246223 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		36C4512818E9085600246223 /* AnimationMaskTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationMaskTests.m; sourceTree = "<group>"; };
+		36C4513218E9087100246223 /* sunset_tree.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sunset_tree.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,9 +88,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		360E75D018E9093500BE3F86 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				360E75CD18E9093100BE3F86 /* Common.h */,
+				360E75CE18E9093100BE3F86 /* Common.m */,
+			);
+			name = Tool;
+			sourceTree = "<group>";
+		};
 		36C450EE18E9085600246223 = {
 			isa = PBXGroup;
 			children = (
+				360E75D018E9093500BE3F86 /* Tool */,
 				36C4510018E9085600246223 /* AnimationMask */,
 				36C4512218E9085600246223 /* AnimationMaskTests */,
 				36C450F918E9085600246223 /* Frameworks */,
@@ -114,12 +131,14 @@
 		36C4510018E9085600246223 /* AnimationMask */ = {
 			isa = PBXGroup;
 			children = (
+				360E75D118E91BB600BE3F86 /* ocean.jpg */,
 				36C4510918E9085600246223 /* AppDelegate.h */,
 				36C4510A18E9085600246223 /* AppDelegate.m */,
 				36C4510C18E9085600246223 /* Main_iPhone.storyboard */,
 				36C4510F18E9085600246223 /* Main_iPad.storyboard */,
 				36C4511218E9085600246223 /* ViewController.h */,
 				36C4511318E9085600246223 /* ViewController.m */,
+				36C4513218E9087100246223 /* sunset_tree.jpg */,
 				36C4511518E9085600246223 /* Images.xcassets */,
 				36C4510118E9085600246223 /* Supporting Files */,
 			);
@@ -235,6 +254,8 @@
 				36C4511618E9085600246223 /* Images.xcassets in Resources */,
 				36C4510E18E9085600246223 /* Main_iPhone.storyboard in Resources */,
 				36C4510518E9085600246223 /* InfoPlist.strings in Resources */,
+				360E75D218E91BB600BE3F86 /* ocean.jpg in Resources */,
+				36C4513318E9087100246223 /* sunset_tree.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				360E75CF18E9093100BE3F86 /* Common.m in Sources */,
 				36C4511418E9085600246223 /* ViewController.m in Sources */,
 				36C4510B18E9085600246223 /* AppDelegate.m in Sources */,
 				36C4510718E9085600246223 /* main.m in Sources */,
@@ -470,6 +492,7 @@
 				36C4512E18E9085600246223 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		36C4512F18E9085600246223 /* Build configuration list for PBXNativeTarget "AnimationMaskTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +501,7 @@
 				36C4513118E9085600246223 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
